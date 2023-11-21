@@ -1,6 +1,5 @@
 {
   "name": "ensite",
-  "homepage": "https://acet2023.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
