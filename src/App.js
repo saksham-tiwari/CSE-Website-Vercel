@@ -10,6 +10,8 @@ import Registration from './pages/Registration/Registration';
 import Committee from './pages/Committee/Committee'
 import Award from './pages/Award/Award';
 import ImpDates from './Components/Important_Dates/ImpDates';
+import TravelGrant from './Components/TravelGrant/TravelGrant';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 class App extends Component {
 
@@ -36,6 +38,8 @@ class App extends Component {
           <Route path='/committee' component={Committee} />
           <Route path='/accomodation' component={Award} />
           <Route path='/dates' component={ImpDates} />
+          <Route path='/travel-grant' component={TravelGrant} />
+          <Route path='/contact-us' component={ContactUs} />
         </Switch>
       </div>
     );

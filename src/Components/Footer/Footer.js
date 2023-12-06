@@ -7,7 +7,7 @@ class Theme extends Component {
 
     render() {
         return (
-            <div id="footer" className="d-flex flex-column align-items-center justify-content-center pb-0 mb-0" >
+            <div id="footer" style={{position:"sticky",width:"100vw",bottom:"0"}} className="d-flex flex-column align-items-center justify-content-center pb-0 mb-0" >
                 {/* <Logo className="mt-5"/> */}
                 <img className="mt-5" src={path} />
                 <p className="mt-3 mb-5 text-muted foottext">Ajay Kumar Garg Engineering College, Ghaziabad</p>

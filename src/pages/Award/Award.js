@@ -6,7 +6,7 @@ import Footer from "../../Components/Footer/Footer"
 
 const Award = () => {
     return (
-        <>
+        <div>
             <Header active="accomodation" />
 
             <div id="call" className="target mb-5 foothandle">
@@ -17,8 +17,10 @@ const Award = () => {
 
                 </div>
             </div>
-            <Footer />
-        </>
+            <div style={{position:"absolute",bottom:"0"}}>
+                <Footer />
+            </div>
+        </div>
     )
 }
 
