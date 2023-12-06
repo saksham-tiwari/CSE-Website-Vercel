@@ -19,9 +19,6 @@ function Home() {
       <Header active='home' />
       <Main />
       <Footer />
-
-
-
     </>
   );
 }
